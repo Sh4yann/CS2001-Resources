@@ -19,6 +19,9 @@
         <main>
             <!-- Check Week 2 Lecture to learn about HTML5 semantic elements-->
             <aside>
+                <input type="search" name="Search" id="Search" placeholder="Search">
+
+                
             </aside>
             <section>
                 <form class="center" novalidate>
@@ -33,16 +36,28 @@
                            and how to create a button that would react to a click Event
                         -->
                     <!-- Example given for user type checkboxes-->
-                    
+                   
+                        <label for="fname">name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="email">email:</label>
+                        <input type="text" id="email" name="email"><br><br>
+                        <label for="password">password:</label>
+                        <input type="text" id="password" name="password"><br><br>
+                        <label for="Re-enter email">Re-enter email:</label>
+                        <input type="text" id="Re-enter email" name="Re-enter email"><br><br>
+                        <input type="submit" value="Submit"><br><br>
+                      
                     <input type="checkbox" id="buyer" name="buyer" value="buyer">
                     <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
                     <input type="checkbox" id="seller" name="seller" value="seller">
                     <label for="seller">I want to sell produce from my allotment.</label><br><br>
-
+                </form>
                     <br><br>
                 </form>
                 <div class="center" id="hiddenSection">
                     <p id="hiddenParagraph"></p>
+                </div>
+            
                 </div>
             </section>
         </main>

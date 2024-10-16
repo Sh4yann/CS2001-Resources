@@ -54,6 +54,12 @@ main {
     /*ToDo: Make this a flexible container; 
     You can find the following helpful: display, flex-wrap, width, min-height, height
     See lecture slides*/
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section, aside {
@@ -66,9 +72,23 @@ aside {
     /*ToDo: Set width.ToDo: For fluid layouts, use min-width, max-width, and set to relative 
    values, like 25% of the page.*/ 
     background-color: #deded8;
-}
 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 0;
+    margin: 0;
+}
+input{
+    padding-top:0;
+}
+label{
+    padding: 0;
+}
 section {
+
     /*ToDo: Set width. For fluid layouts, use min-width, max-width, and set to relative 
    values, like 75% of the page.*/
 }
